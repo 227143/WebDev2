@@ -42,8 +42,8 @@ h1 {
 #home {
 
 
-    background-color: orange;
-    color: black;
+    background-color: blue;
+    color: white;
     width: 500px;
     padding: 50px;
     margin: 20px;
@@ -51,8 +51,8 @@ h1 {
 }
 
 #home2 {
-    background-color: black;
-    color: orange;
+    background-color: white;
+    color: blue;
     width: auto;
     padding: 5px;
     margin: 20px;
@@ -71,7 +71,7 @@ dd {
     margin: 0;
     padding: 1em 0;
     background-color: transparent;
-    color: black;
+    color: grey;
 }
 
 dt {
@@ -83,7 +83,7 @@ dt {
     border-bottom: 1px solid #c5c5c5;
     border-top: 1px solid white;
     background-color: transparent;
-    color: black;
+    color: gray;
 }
 
 dt:first-child {
@@ -109,70 +109,4 @@ h4 {
 
 ol {
     align-content: center;
-}
-
-#clock {
-    position: relative;
-    width: 378px;
-    height: 378px;
-    background-image: url('../images/clockFace.png');
-    left: 50%;
-    margin: 5em 0 0 -189px;
-}
-
-#clock div {
-    position: absolute;
-}
-
-#clock img[src*='hour'] {
-    -webkit-transform: rotate(90deg);
-}
-
-#clock img[src*='second'] {
-    /* -webkit-transition: property duration timing-function */
-    -webkit-transition: -webkit-transform 60s linear;
-}
-
-#clock:target img[src*='second'] {
-    -webkit-transform: rotate(360deg);
-}
-
-#clock img[src*='second'] {
-    -webkit-transition: -webkit-transform 600000s linear;
-}
-
-#clock:target img[src*='second'] {
-    -webkit-transform: rotate(3600000deg);
-}
-
-#clock img[src*='minute'] {
-    -webkit-transition: -webkit-transform 360000s linear;
-}
-
-#clock:target img[src*='minute'] {
-    -webkit-transform: rotate(36000deg);
-}
-
-.redirect {
-    height: 50px;
-    width: auto;
-    padding: 23px;
-    background-color: blue;
-    font-size: 2em
-}
-
-.bigger {
-    font-size: 2em;
-    color: chartreuse;
-}
-
-h5 {
-    font-size: 1.7em;
-    color: black;
-
-}
-
-#hard {
-    font-size: 1.2em;
-    color: black;
 }
